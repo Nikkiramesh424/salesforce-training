@@ -6,8 +6,8 @@
 
 ## Modules Completed
 
-* Agentforce 360 Platform Basics
-* Agentforce 360 Platform Development Basics
+- Agentforce 360 Platform Basics
+- Agentforce 360 Platform Development Basics
 
 ## What is Salesforce Platform?
 
@@ -42,8 +42,8 @@ Configuration means creating features using clicks without writing code.
 
 Examples:
 
-* Creating fields
-* Building flows
+- Creating fields
+- Building flows
 
 ### Coding
 
@@ -51,8 +51,8 @@ Coding means writing custom logic using Apex or Lightning Web Components.
 
 Examples:
 
-* Complex validations
-* Custom business logic
+- Complex validations
+- Custom business logic
 
 
 ## Connecting Day 1 and Day 2
@@ -71,10 +71,10 @@ College Admission App
 
 ### Objects
 
-* Student
-* Admission
-* Courses
-* Faculty
+- Student
+- Admission
+- Courses
+- Faculty
 
 ### User Interaction
 
@@ -82,10 +82,10 @@ Users can manage student details, admissions, and course information using the a
 
 ## What I Learned
 
-* Salesforce Platform structure
-* Apps, Objects, and Tabs
-* Difference between configuration and coding
-* Basic Salesforce development concepts
+- Salesforce Platform structure
+- Apps, Objects, and Tabs
+- Difference between configuration and coding
+- Basic Salesforce development concepts
 
 ## Screenshots
 

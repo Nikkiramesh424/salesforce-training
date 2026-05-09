@@ -10,7 +10,6 @@
 - Agentforce 360 Platform Development Basics
 
 ## What is Salesforce Platform?
-
 Salesforce Platform is a cloud-based platform used to build and manage applications, business processes, and customer data. It allows companies to customize features, automate workflows, and create apps according to business needs.
 
 

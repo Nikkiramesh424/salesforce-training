@@ -1,7 +1,7 @@
 # Day 3 - Data Modeling and Validation
 
 ## Date
-12 May 2026
+11 May 2026
 
 ---
 

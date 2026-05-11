@@ -107,11 +107,86 @@ Total Expected Revenue from Opportunities.
 ---
 
 ## What I Learned
-- Data relationships
-- Formula fields
-- Validation rules
-- Roll-up summary fields
-- Structured data management
+
+### Objects, Fields and Records
+
+I learned that objects are used to store data in Salesforce. Fields store specific information like name, email, or phone number. Records are individual entries inside an object.
+
+Example:
+Student object can contain multiple student records.
+
+---
+
+### Standard vs Custom Objects
+
+I understood that standard objects are already available in Salesforce like Account, Contact, and Opportunity.
+
+Custom objects are created based on business needs such as Student, Property, or Course.
+
+---
+
+### Relationships in Salesforce
+
+I learned how relationships connect objects together.
+
+I understood:
+
+* Lookup Relationship
+* Master-Detail Relationship
+
+Relationships help organize data properly in real systems.
+
+Example:
+One department can contain many courses and faculty members.
+
+---
+
+### Formula Fields
+
+I learned that formula fields automatically calculate values without manual work.
+
+Examples:
+
+* Percentage calculation
+* Remaining seats
+* Days remaining
+
+Formula fields help reduce repetitive calculations.
+
+---
+
+### Validation Rules
+
+I understood that validation rules prevent users from entering wrong or incomplete data.
+
+Examples:
+
+* Email cannot be empty
+* Age cannot be negative
+* ZIP codes must match
+
+Validation rules help maintain correct and consistent data.
+
+---
+
+### Structured Data in Enterprise Systems
+
+I learned why companies prefer structured data instead of random spreadsheets.
+
+Structured data:
+
+* avoids duplicate data
+* improves consistency
+* helps maintain relationships
+* makes reporting easier
+
+---
+
+### Metadata and No-Code Logic
+
+I understood that Salesforce is a metadata-driven platform where many business processes can be created using clicks instead of coding.
+
+This helps companies build applications faster and manage business logic easily.
 
 ---
 

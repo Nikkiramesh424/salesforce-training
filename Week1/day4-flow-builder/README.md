@@ -1,113 +1,112 @@
-# Day 4 – Salesforce Flow Builder and Automation
+# Day 4 - Flow Builder and Automation
 
 ## Date
 12 May 2026
 
 ---
 
-## Modules Completed
-- Flow Builder Basics
-- Build Flows with Flow Builder
+# 1. What is Flow Builder?
+
+Flow Builder is a Salesforce automation tool used to automate business processes without writing code.
+
+It helps organizations reduce manual work by automatically updating records, sending emails, creating tasks, and performing different actions based on conditions.
+
+Flow Builder improves efficiency, accuracy, and workflow management in enterprise systems.
 
 ---
 
-## Topics Covered
+# 2. Types of Flows
 
-### Flow Builder
-I learned how to use Flow Builder in Salesforce to automate business processes without coding. I understood how automation helps reduce manual work and improve efficiency.
+## Screen Flow
 
----
+Screen Flows interact with users through screens and input forms.
 
-### Record-Triggered Flow
-I learned how record-triggered flows work automatically whenever a record is created or updated. I created flows using Lead and Account objects.
+These flows are mainly used when user interaction is required.
 
----
-
-### Autolaunched Flow
-I learned how autolaunched flows run in the background without user interaction. I created a flow to convert an account into a customer automatically.
+Example:
+Student registration form where users enter details manually.
 
 ---
 
-### Get Records Element
-I used the Get Records element to fetch matching account records from Salesforce objects.
+## Record Triggered Flow
+
+Record Triggered Flows run automatically whenever a record is created, updated, or deleted.
+
+These flows help automate backend business processes.
+
+Example:
+Automatically sending notifications when a new student registers.
 
 ---
 
-### Update Records Element
-I learned how to automatically update existing records using flow elements.
+# 3. My Automation Ideas
+
+## 1. Automatic Student Registration Confirmation
+Send confirmation email automatically after student registration.
+
+## 2. Fee Payment Reminder
+Automatically send reminders before fee due dates.
+
+## 3. Automatic Student ID Generation
+Generate student IDs automatically after admission approval.
+
+## 4. Faculty Notification System
+Notify faculty members automatically when classroom capacity is full.
+
+## 5. Automatic Seat Availability Update
+Update available seats automatically after each admission.
 
 ---
 
-### Create Records Element
-I used Create Records to automatically create onboarding tasks in Salesforce.
+# 4. My Flow Diagram
+
+## Student Admission Automation Flow
+
+Student Registration
+        ↓
+Check Seat Availability
+        ↓
+Decision:
+Seats Available or Not
+        ↓
+If Yes → Confirm Admission
+        ↓
+Generate Student ID
+        ↓
+Send Confirmation Email
 
 ---
 
-### Variables and Formulas
-I learned how to create variables and formula resources in Flow Builder. I used formulas like TODAY() + 7 to calculate dates.
+# 5. Manual vs Automated Process
+
+## Manual Process
+
+In manual systems, faculty members manually verify registrations, update records, send emails, and track fee payments.
+
+This process takes more time and may lead to mistakes or delayed communication.
 
 ---
 
-### Validation Rules
-I learned how validation rules help maintain correct data and prevent invalid data entry.
+## Automated Process
+
+Using Salesforce automation, tasks like notifications, record updates, reminders, and confirmations happen automatically.
+
+Automation reduces manual work, improves speed, and increases accuracy.
 
 ---
 
-### Chatter Integration
-I learned how to automatically post messages in Chatter using Flow Builder.
+# 6. Reflection – Why Automation Matters in Enterprise Systems
 
----
+Automation is important in enterprise systems because companies handle large amounts of data and repetitive processes daily.
 
-### Email Alerts
-I learned how to create email alerts and send emails automatically to public groups.
+Automation helps:
+- save time
+- reduce human errors
+- improve consistency
+- increase productivity
+- manage workflows efficiently
 
----
-
-### Text Templates
-I learned how text templates are used for reusable messages and notifications in flows.
-
----
-
-### Salesforce Automation
-I understood how Salesforce automation helps organizations reduce repetitive work and improve productivity.
-
----
-
-# Hands-On Challenges Completed
-
-## 1. Convert an Account to a Customer
-Created an autolaunched flow that updates an account type to customer and creates an onboarding task automatically.
-
-## 2. Mark New Leads if There’s Already an Account With That Name
-Created a record-triggered flow that checks for matching accounts and updates the lead with the matching account.
-
-## 3. Add Chatter and Email to the New Lead Flow
-Enhanced the lead flow by adding Chatter posts and Email Alerts.
-
-## 4. Create Flow Resources
-Created variables, formulas, and resources required for flow automation.
-
----
-
-# Automation Ideas for College Management System
-
-- Automatically send confirmation email after student registration
-- Send fee payment reminders automatically
-- Notify faculty when classroom capacity is full
-- Automatically assign student IDs
-- Update available seats automatically after admissions
-
----
-
-# Manual Process vs Automated Process
-
-### Manual Process
-Faculty manually checks student registrations, fee payments, and class capacity. This takes more time and can lead to mistakes.
-
-### Automated Process
-Salesforce automation can automatically send reminders, update records, and notify faculty members. This reduces manual work and improves efficiency.
-
----
+Salesforce Flow Builder allows organizations to automate business operations easily without requiring heavy coding.
 
 # What I Learned
 

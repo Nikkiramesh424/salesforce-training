@@ -1,0 +1,1 @@
+This folder contains Day10 screenshots including Event Comms app, LWC components, Visualforce pages, Apex classes, Lightning App Builder pages, deployment steps, and Trailhead module completion screenshots.

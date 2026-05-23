@@ -1,8 +1,5 @@
 # Day 10 – Mini Project: Enterprise System Design using Salesforce
 
-## Date
-23 May 2026
-
 ---
 
 # System Overview

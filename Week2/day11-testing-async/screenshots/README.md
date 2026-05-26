@@ -1,0 +1,1 @@
+This folder contains screenshots of completed Salesforce Trailhead modules, hands-on challenges, Apex Testing, Async Apex, Batch Apex, Queueable Apex, Scheduled Apex, and verification results for Day 11 tasks.

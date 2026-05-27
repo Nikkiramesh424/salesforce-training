@@ -1,7 +1,5 @@
 # Day 14 – Flow Logic and Governance
 
-## Salesforce Summer Program
-
 ### Objective
 The objective of Day 14 was to understand how enterprise systems use:
 - Flow logic
